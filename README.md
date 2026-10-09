@@ -11,11 +11,11 @@ Die kostenlose Ausgabe ist dauerhaft nutzbar und zeigt CAZ-Branding im Start- un
 
 CAZpresent ist proprietäre Software. Die kostenlose Bereitstellung ist keine Open-Source-Lizenz. Hinweise und Lizenzen mitgelieferter Drittkomponenten bleiben erhalten. Diese Beschreibung ist kein vollständiger Lizenzvertrag. Individuelle Anpassungen und die Partnerausgabe werden gesondert vereinbart.
 
-## Aktuelle Vorabversion: 0.3.11
+## Aktuelle Vorabversion: 0.3.12
 
-- [Windows-Installer](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/CAZpresent-0.3.11-Windows-Setup.exe) – 64.653.411 Bytes.
-- [Android-APK](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/CAZpresent-0.3.11.apk) – 3.628.993 Bytes, ab Android 8.
-- [SHA-256-Prüfsummen](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/SHA256SUMS.txt).
+- [Windows-Installer](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.12/CAZpresent-0.3.12-Windows-Setup.exe) – 64.657.626 Bytes.
+- [Android-APK](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.12/CAZpresent-0.3.12.apk) – 3.633.153 Bytes, ab Android 8.
+- [SHA-256-Prüfsummen](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.12/SHA256SUMS.txt).
 
 Der Windows-Installer ist nicht mit einem Authenticode-Zertifikat signiert. Windows kann deshalb einen unbekannten Herausgeber oder eine SmartScreen-Meldung anzeigen. Prüfen Sie Quelle und Prüfsumme; Schutzfunktionen müssen nicht pauschal deaktiviert werden.
 
@@ -46,3 +46,9 @@ Auf Android öffnet „App schließen“ nach Passwortfreigabe direkt den normal
 Passwortschutz in Schritt 4 ist freiwillig und bei neuer Einrichtung aus. Bestehende Passwörter bleiben aktiv: zuerst entsperren, „Mit Passwort schützen“ ausschalten und speichern. Ohne Schutz sind Einrichtung und App schließen ohne Passwortabfrage möglich. Kleine Displays, Android-Systemleisten, Aussparungen und die Bildschirmtastatur werden berücksichtigt; Einrichtung und normale Inhaltsansicht sind scrollbar. Die bisherigen LED- und Start-App-Funktionen bleiben enthalten.
 
 Als Update über die vorhandene Installation installieren; nicht vorher deinstallieren oder App-Daten löschen.
+
+## Neu in 0.3.12
+
+Kataloge für deine lokale Inhaltsbibliothek: anlegen, benennen, Dateien zuordnen und wieder löschen. Eine Datei kann mehreren Katalogen angehören. In der Übersicht nach Katalog filtern oder den ausgewählten Katalog als Dauerschleife abspielen. Katalog löschen entfernt keine Mediendateien. Gespeichertes „Neueste zuerst“ sortiert nach Dateiänderungsdatum. Bis zu 100 Kataloge und insgesamt 5.000 Dateizuordnungen. Umbenannte Dateien bei Bedarf neu zuordnen. Kataloge sind in der Einrichtungssicherung enthalten; solche Backups benötigen 0.3.12 oder neuer.
+
+Als Update über die vorhandene Installation installieren; nicht vorher deinstallieren oder App-Daten löschen. Optionaler Passwortschutz, Android-Start-App und LED-Bildfläche bleiben enthalten.
