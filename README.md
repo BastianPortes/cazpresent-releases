@@ -11,11 +11,11 @@ Die kostenlose Ausgabe ist dauerhaft nutzbar und zeigt CAZ-Branding im Start- un
 
 CAZpresent ist proprietäre Software. Die kostenlose Bereitstellung ist keine Open-Source-Lizenz. Hinweise und Lizenzen mitgelieferter Drittkomponenten bleiben erhalten. Diese Beschreibung ist kein vollständiger Lizenzvertrag. Individuelle Anpassungen und die Partnerausgabe werden gesondert vereinbart.
 
-## Aktuelle Vorabversion: 0.3.10
+## Aktuelle Vorabversion: 0.3.11
 
-- [Windows-Installer](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.10/CAZpresent-0.3.10-Windows-Setup.exe) – 64.651.512 Bytes.
-- [Android-APK](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.10/CAZpresent-0.3.10.apk) – 3.624.897 Bytes, ab Android 8.
-- [SHA-256-Prüfsummen](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.10/SHA256SUMS.txt).
+- [Windows-Installer](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/CAZpresent-0.3.11-Windows-Setup.exe) – 64.653.411 Bytes.
+- [Android-APK](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/CAZpresent-0.3.11.apk) – 3.628.993 Bytes, ab Android 8.
+- [SHA-256-Prüfsummen](https://github.com/BastianPortes/cazpresent-releases/releases/download/v0.3.11/SHA256SUMS.txt).
 
 Der Windows-Installer ist nicht mit einem Authenticode-Zertifikat signiert. Windows kann deshalb einen unbekannten Herausgeber oder eine SmartScreen-Meldung anzeigen. Prüfen Sie Quelle und Prüfsumme; Schutzfunktionen müssen nicht pauschal deaktiviert werden.
 
@@ -40,3 +40,9 @@ Für Updates die APK über die vorhandene App installieren, nicht deinstallieren
 ## Korrektur in 0.3.10
 
 Auf Android öffnet „App schließen“ nach Passwortfreigabe direkt den normalen Tablet-Launcher. CAZpresent bleibt dabei Start-App; Home-Taste und Autostart nach Neustart bleiben aktiv. Bei mehreren geeigneten Launchern ist eine einmalige Auswahl möglich; ohne geeigneten Launcher führt ein Hinweis zu den Android-Einstellungen. Die Start-App-Funktion lässt sich separat über Einrichtung → Schritt 2 → „Normalen Tablet-Startbildschirm wählen“ dauerhaft abschalten.
+
+## Neu in 0.3.11
+
+Passwortschutz in Schritt 4 ist freiwillig und bei neuer Einrichtung aus. Bestehende Passwörter bleiben aktiv: zuerst entsperren, „Mit Passwort schützen“ ausschalten und speichern. Ohne Schutz sind Einrichtung und App schließen ohne Passwortabfrage möglich. Kleine Displays, Android-Systemleisten, Aussparungen und die Bildschirmtastatur werden berücksichtigt; Einrichtung und normale Inhaltsansicht sind scrollbar. Die bisherigen LED- und Start-App-Funktionen bleiben enthalten.
+
+Als Update über die vorhandene Installation installieren; nicht vorher deinstallieren oder App-Daten löschen.
